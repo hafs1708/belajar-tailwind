@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Tailwind 2</title>
+    <link href="/dist/output.css" rel="stylesheet">
+
+</head>
+<body class="font-roboto max-w-screen">
+
+    <header class="absolute w-full top-0 left-0 max-md:h-28 h-16 md:flex md:gap-4 p-2 md:items-center mx-auto">
+        <div class="flex grow items-center gap-4">
+            <div class="flex grow">
+                <div>
+                    <div class="bg-orange-300 h-12 w-12 rounded-full items-end flex overflow-hidden">
+                        <img src="../latihan/svg/girl-svgrepo-com.svg" alt="" class="w-10 h-10 mx-auto">
+                    </div>
+                </div>
+                <nav class="font-bold max-md:grow md:flex-none flex justify-between md:justify-start gap-10 items-center pl-5">
+                    <a class="scale-110 duration-100 hover:bg-cyan-900 hover:text-white py-2 px-4 rounded" href="#">Blush</a>
+                    <a class="scale-110 duration-100 hover:bg-cyan-900 hover:text-white py-2 px-4 rounded" href="#">Collections</a>
+                    <a class="scale-110 duration-100 hover:bg-cyan-900 hover:text-white py-2 px-4 rounded" href="#">Artist</a>
+                </nav>
+                <div class="md:grow md:flex md:border md:border-cyan-900 gap-2 p-1.5 rounded items-center ml-3 max-md:pt-3">
+                    <img src="../latihan/svg/search2.svg" alt="" class="max-md:w-6 max-md:h-6 w-4 h-4">
+                    <input type="text" placeholder="Search" class="grow outline-none max-md:hidden">
+                </div>
+            </div>
+        </div>
+        <div class="flex gap-4 max-md:pt-5 items-center max-md:justify-end pr-5">
+            <button class="text-white border-2 border-cyan-900 rounded py-2 px-4 bg-cyan-950 hover:scale-110 duration-300 ease-out">Download</button>
+            <button class="border-2 border-cyan-900 font-bold rounded py-2 px-4 hover:scale-110 duration-300 ease-out min-w-fit">Sign In</button>
+            <img src="../latihan/svg/three-dots-vertical-svgrepo-com.svg" alt="" class="w-6 h-6 max-md:hidden">
+        </div>
+    </header>
+    <main class="min-h-screen max-md:pt-36 pt-32 gap-4 p-4 max-w-5xl mx-auto items-center">
+        <div class="text-center md:mx-auto pt-10">
+            <div class="font-playfair text-3xl sm:text-4xl md:text-6xl leading-tight font-bold">Beautiful Doodles to</div>
+            <div class="font-playfair text-3xl sm:text-4xl md:text-6xl leading-tight font-bold my-2">Tell Your Story</div>
+            <div class="my-2">Beautiful Doodles to Tell Your Story</div>
+            <div class="pt-2">
+                <button class="text-white border-2 border-cyan-900 rounded py-2 px-4 bg-cyan-950 hover:scale-110 duration-300 ease-out">Download</button>
+                <button class="border-2 border-cyan-900 font-bold rounded py-2 px-4 hover:scale-110 duration-300 ease-out">Sign In</button>
+            </div>
+        </div>
+        <div>
+            <img src="../latihan/svg/Woman Power Trip to the Bazaar.svg">
+        </div>
+    </main>
+    
+</body>
+</html>

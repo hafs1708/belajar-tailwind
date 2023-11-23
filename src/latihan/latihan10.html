@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan Tailwind 10</title>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-orange-400 font-roboto max-w-screen">
+
+    <header class="w-full top-0 left-0 max-md:h-28 h-16 md:flex absolute items-center p-2 md:gap-4">
+        <div class="flex grow items-center gap-4">
+            <div class="flex grow">
+                <div class="bg-orange-100 w-12 h-12 flex items-end rounded-full overflow-hidden">
+                    <img src="../latihan/svg/woman.svg" alt="" class="w-10 h-10 mx-auto">
+                </div>
+                <div class="font-bold flex gap-10 max-md:grow md:flex-none justify-between md:justify-start items-center pl-5">
+                    <a class="py-2 px-2 hover:bg-white hover:text-orange-950 rounded duration-100" href="#">Blush</a>
+                    <a class="py-2 px-2 hover:bg-white hover:text-orange-950 rounded duration-100" href="#">Collections</a>
+                    <a class="py-2 px-2 hover:bg-white hover:text-orange-950 rounded duration-100" href="#">Artist</a>
+                </div>
+                <div class="md:flex md:grow md:bg-white p-2 rounded items-center gap-2 max-md:pt-3 ml-3">
+                    <img src="../latihan/svg/search.svg" alt="" class="max-md:w-6 max-md:h-6 w-4 h-4">
+                    <input type="text" placeholder="Search" class="grow outline-none max-md:hidden">
+                </div>
+            </div>
+        </div>
+        <div class="flex gap-4 max-md:pt-5 items-center max-md:justify-end pr-3">
+            <button class="bg-indigo-600 py-2 px-4 rounded hover:scale-110 duration-300 ease-out text-white">Download</button>
+            <button class="border-black border-2 bg-white font-bold py-2 px-4 rounded hover:scale-110 duration-300 ease-out min-w-fit">Sign In</button>
+            <img src="../latihan/svg/three-dots-vertical-svgrepo-com.svg" alt="" class="max-md:hidden w-6 h-6">
+        </div>
+    </header>
+    <main class="min-h-screen max-md:pt-44 pt-32 gap-4 p-4 max-w-7xl mx-auto md:grid md:grid-cols-2 items-center">
+        <div class="">
+            <img src="../latihan/svg/Woman Power Alone Time.svg" alt="" class="max-md:w-[400px]">
+        </div>
+        <div class="md:pl-16">
+            <div class="text-white max-md:text-center">
+                <div class="font-playfair font-bold text-4xl md:text-7xl">Beautiful</div>
+                <div class="font-playfair font-bold text-4xl md:text-7xl pt-2">Doodles to Tell</div>
+                <div class="font-playfair font-bold text-4xl md:text-7xl pt-2">Your Story</div>
+                <div class="pt-2">Beautiful Doodles to Tell Your Story</div>
+            </div>
+            <div class="pt-3 flex gap-3 max-md:justify-center">
+                <button class="bg-indigo-600 py-2 px-4 rounded hover:scale-110 duration-300 ease-out text-white">Download</button>
+                <button class="border-black border-2 bg-white font-bold py-2 px-4 rounded hover:scale-110 duration-300 ease-out">Sign In</button>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Tailwind 1</title>
+    <link href="/dist/output.css" rel="stylesheet">
+
+</head>
+<body class="font-roboto max-w-screen">
+
+    <header class="absolute w-full top-0 left-0 max-md:h-28 h-16 md:flex md:gap-4 p-2 md:items-center">
+        <div class="flex grow items-center gap-4">
+            <div class="flex grow">
+                <div class="bg-rose-300 h-10 w-10 rounded-full flex items-end overflow-hidden">
+                    <img src="../latihan/svg/woman.svg" class="w-8 h-8 mx-auto">
+                </div>
+                <nav class="font-bold max-md:grow md:flex-none flex justify-between md:justify-start gap-10">
+                    <a class="ml-3 py-2 px-2 hover:bg-indigo-500 hover:text-white rounded duration-100" href="#">Blush</a>
+                    <a class="py-2 px-2 hover:bg-indigo-500 hover:text-white rounded duration-100" href="#">Collections</a>
+                    <a class="py-2 px-2 hover:bg-indigo-500 hover:text-white rounded duration-100" href="#">Artist</a>
+                </nav>
+                <div class="md:grow md:flex items-center gap-2 md:border md:border-slate-900 rounded p-1.5 ml-3">
+                    <img src="../latihan/svg/search.svg" class="max-md:w-6 max-md:h-6 w-4 h-4">
+                    <input type="text" placeholder="Search" class="grow outline-none max-md:hidden">
+                </div>
+            </div>
+        </div>
+        <div class="flex gap-4 max-md:pt-5 items-center max-md:justify-end max-md:pr-3">
+            <button class="bg-indigo-500 py-2 px-4 font-bold text-white rounded hover:scale-110 duration-500 ease-out">Download</button>
+            <button class="border border-slate-900 py-2 px-4 rounded hover:scale-110 duration-500 ease-out font-bold min-w-fit">Sign In</button>
+            <img src="../latihan/svg/three-dots-vertical-svgrepo-com.svg" class="w-8 h-8 max-md:hidden">
+        </div>
+    </header>
+    <main class="min-h-screen max-md:pt-36 pt-32 md:grid md:grid-cols-2 gap-4 p-4 max-w-5xl mx-auto items-center">
+        <div class="text-center md:mx-auto">
+            <div class="font-playfair font-bold text-3xl sm:text-4xl md:text-6xl leading-tight">Crafting Your Doodles Story</div>
+            <div class="text-xl py-4">Beautiful Doodle to Teel Your Story</div>
+            <button class="bg-indigo-500 py-2 px-4 font-bold text-white rounded hover:scale-110 duration-500 ease-out mr-3">Download</button>
+            <button class="border border-slate-900 py-2 px-4 rounded hover:scale-110 duration-500 ease-out font-bold">Sign In</button>
+        </div>
+        <div class="h-full w-full relative">
+            <img src="../latihan/svg/iphone-12-pro--silver.png" class="w-44 md:w-56 absolute top-10 left-[30%] md:left-0 hover:scale-110 duration-500 ease-out hover:z-10">
+            <img src="../latihan/svg/iphone-12-pro--silver@2x.svg" class="w-44 md:w-56 absolute top-[90px] left-[50%] md:left-40 hover:scale-110 duration-500 ease-out hover:z-10">
+        </div>
+    </main>
+    <footer>Footer</footer>
+
+    
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Tailwind 3</title>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+
+<body class="font-roboto max-w-screen">
+
+    <header class="md:bg-teal-950 absolute top-0 left-0 max-md:h-28 h-16 w-full md:flex items-center md:gap-4 p-2">
+        <div class="flex grow items-center gap-4">
+            <div class="flex grow">
+                <div>
+                    <div class="bg-yellow-600 w-12 h-12 rounded-full flex items-end overflow-hidden">
+                        <img src="../latihan/svg/woman2.svg.svg" class="w-10 h-10 mx-auto">
+                    </div>
+                </div>
+                <nav class="md:text-white max-md:grow md:flex-none flex justify-between md:justify-start gap-10 items-center pl-5">
+                    <a class="font-bold scale-110 duration-100 hover:bg-cyan-900 hover:text-white md:hover:bg-white md:hover:text-cyan-900 py-2 px-4 rounded" href="#">Blush</a>
+                    <a class="font-bold scale-110 duration-100 hover:bg-cyan-900 hover:text-white md:hover:bg-white md:hover:text-cyan-900 py-2 px-4 rounded" href="#">Collections</a>
+                    <a class="font-bold scale-110 duration-100 hover:bg-cyan-900 hover:text-white md:hover:bg-white md:hover:text-cyan-900 py-2 px-4 rounded" href="#">Artist</a>
+                </nav>
+                <div class="md:grow md:flex md:border md:border-white p-2 rounded items-center ml-3 max-md:pt-3 gap-2">
+                    <img src="../latihan/svg/search2.svg" class="max-md:w-6 max-md:h-6 w-4 h-4">
+                    <input type="text" placeholder="Search" class="bg-teal-950 text-white grow outline-none max-md:hidden">
+                </div>
+            </div>
+        </div>
+        <div class="flex gap-4 max-md:pt-5 items-center max-md:justify-center">
+            <button class="bg-teal-700 py-2 px-4 rounded text-white font-bold hover:scale-110 duration-500 ease-out">Download</button>
+            <button class="border-2 border-teal-700 md:text-white font-bold py-2 px-4 rounded hover:scale-110 duration-500 ease-out min-w-fit">Sign In</button>
+            <img src="../latihan/svg/three-dots.svg" class="w-8 h-8 max-md:hidden">
+        </div>
+    </header>
+    <main class="min-h-screen max-md:pt-36 pt-32 gap-4 p-4 max-w-7xl mx-auto md:grid md:grid-cols-2 items-center">
+        <div>
+            <div class="text-center md:text-left">
+                <div class="font-playfair text-3xl sm:text-4xl md:text-6xl leading-tight font-bold">Crafting Your</div>
+                <div class="font-playfair text-3xl sm:text-4xl md:text-6xl leading-tight font-bold">Doodles Story</div>
+            </div>
+            <div class="pt-5 flex gap-4 text-white justify-center">
+                <div class="bg-teal-950 w-5/12 h-5/12 rounded-md p-3 flex flex-col justify-between">
+                    <h4 class="text-sm">Cameron Williamson</h4>
+                    <h2 class="font-bold text-xl">
+                        Lorem ipsum dolor
+                        sit amet consectetur
+                        adipisicing elit.
+                        Minus, corrupti.
+                        Lorem ipsum dolor sit amet.
+                    </h2>
+                    <div class="mt-5">
+                        <div class="pt-5 flex gap-3 items-center">
+                            <div class="bg-orange-300 w-10 h-10 rounded-full flex items-end overflow-hidden">
+                                <img src="../latihan/svg/woman.svg" alt="" class="w-8 h-8 mx-auto">
+                            </div>
+                            <div class="">
+                                <div class="font-bold text-sm">Firstname Lastname</div>
+                                <div class="text-sm">08123456789</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-teal-950 w-5/12 h-5/12 rounded-md p-3 flex flex-col justify-between">
+                    <h4 class="text-sm">Cameron Williamson</h4>
+                    <h2 class="font-bold text-xl">
+                        Lorem ipsum dolor
+                        sit amet consectetur
+                        adipisicing elit.
+                        Minus, corrupti.
+                    </h2>
+                    <div class="mt-5">
+                        <div class="pt-5 flex gap-3 items-center">
+                            <div class="bg-orange-300 w-10 h-10 rounded-full flex items-end overflow-hidden">
+                                <img src="../latihan/svg/woman.svg" alt="" class="w-8 h-8 mx-auto">
+                            </div>
+                            <div class="">
+                                <div class="font-bold text-sm">Firstname Lastname</div>
+                                <div class="text-sm">08123456789</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="h-full w-full flex items-center overflow-hidden pt-10">
+            <img src="../latihan/svg/Device - Macbook Air.svg" class="w-[115%] max-w[115%] hover:scale-75 hover:max-w-full duration-500 ease-out">
+        </div>
+    </main>
+
+</body>
+
+</html>
