@@ -604,6 +604,14 @@ video {
   margin: 1.25rem;
 }
 
+.m-7{
+  margin: 1.75rem;
+}
+
+.m-10{
+  margin: 2.5rem;
+}
+
 .mx-10{
   margin-left: 2.5rem;
   margin-right: 2.5rem;
@@ -1117,6 +1125,10 @@ video {
   padding: 1.25rem;
 }
 
+.p-8{
+  padding: 2rem;
+}
+
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1212,6 +1224,10 @@ video {
   padding-top: 13rem;
 }
 
+.pt-14{
+  padding-top: 3.5rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -1222,6 +1238,10 @@ video {
 
 .font-roboto{
   font-family: Roboto, sans-serif;
+}
+
+.font-nova{
+  font-family: Nova Square, sans-serif;
 }
 
 .text-2xl{
@@ -1335,6 +1355,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-slate-950{
+  --tw-text-opacity: 1;
+  color: rgb(2 6 23 / var(--tw-text-opacity));
+}
+
 .shadow-md{
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
@@ -1423,6 +1448,18 @@ video {
 
 .hover\:bg-opacity-50:hover{
   --tw-bg-opacity: 0.5;
+}
+
+.hover\:bg-opacity-30:hover{
+  --tw-bg-opacity: 0.3;
+}
+
+.hover\:bg-opacity-5:hover{
+  --tw-bg-opacity: 0.05;
+}
+
+.hover\:bg-opacity-75:hover{
+  --tw-bg-opacity: 0.75;
 }
 
 .hover\:text-cyan-700:hover{
