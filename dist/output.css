@@ -604,14 +604,6 @@ video {
   margin: 1.25rem;
 }
 
-.m-7{
-  margin: 1.75rem;
-}
-
-.m-10{
-  margin: 2.5rem;
-}
-
 .mx-10{
   margin-left: 2.5rem;
   margin-right: 2.5rem;
@@ -1224,12 +1216,12 @@ video {
   padding-top: 13rem;
 }
 
-.pt-14{
-  padding-top: 3.5rem;
-}
-
 .text-center{
   text-align: center;
+}
+
+.font-nova{
+  font-family: Nova Square, sans-serif;
 }
 
 .font-playfair{
@@ -1238,10 +1230,6 @@ video {
 
 .font-roboto{
   font-family: Roboto, sans-serif;
-}
-
-.font-nova{
-  font-family: Nova Square, sans-serif;
 }
 
 .text-2xl{
@@ -1345,6 +1333,11 @@ video {
   color: rgb(254 205 211 / var(--tw-text-opacity));
 }
 
+.text-slate-950{
+  --tw-text-opacity: 1;
+  color: rgb(2 6 23 / var(--tw-text-opacity));
+}
+
 .text-violet-900{
   --tw-text-opacity: 1;
   color: rgb(76 29 149 / var(--tw-text-opacity));
@@ -1353,11 +1346,6 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-slate-950{
-  --tw-text-opacity: 1;
-  color: rgb(2 6 23 / var(--tw-text-opacity));
 }
 
 .shadow-md{
@@ -1444,18 +1432,6 @@ video {
 .hover\:bg-white:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-opacity-50:hover{
-  --tw-bg-opacity: 0.5;
-}
-
-.hover\:bg-opacity-30:hover{
-  --tw-bg-opacity: 0.3;
-}
-
-.hover\:bg-opacity-5:hover{
-  --tw-bg-opacity: 0.05;
 }
 
 .hover\:bg-opacity-75:hover{
