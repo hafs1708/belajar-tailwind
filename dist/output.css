@@ -598,6 +598,10 @@ video {
   z-index: -10;
 }
 
+.z-20{
+  z-index: 20;
+}
+
 .mx-10{
   margin-left: 2.5rem;
   margin-right: 2.5rem;
@@ -703,20 +707,8 @@ video {
   height: 2rem;
 }
 
-.h-\[1000px\]{
-  height: 1000px;
-}
-
 .h-\[1080px\]{
   height: 1080px;
-}
-
-.h-\[200px\]{
-  height: 200px;
-}
-
-.h-\[270px\]{
-  height: 270px;
 }
 
 .h-\[300px\]{
@@ -729,10 +721,6 @@ video {
 
 .h-\[700px\]{
   height: 700px;
-}
-
-.h-\[800px\]{
-  height: 800px;
 }
 
 .h-full{

@@ -53,8 +53,9 @@
         const title = `Hero ${i + 1}`;
 
         const html_iframe =
-            `<div class="bg-cyan-500 rounded shadow-xl relative transform hover:scale-110 hover:bg-opacity-75 transition ease-out duration-500">
-                <div class="bg-white aspect-video overflow-hidden rounded shadow-xl relative">
+            `<div class="bg-cyan-500 rounded-lg overflow-hidden shadow-xl relative transform hover:scale-110 hover:bg-opacity-75 transition ease-out duration-500">
+                <div class="bg-white aspect-video overflow-hidden shadow-xl relative">
+                        <div class="absolute w-full h-full z-20 "></div>
                         <iframe src="${link}" frameborder="0" class="w-[1920px] h-[1080px] origin-[0%_0%] scale-[0.2] duration-300 ease-in"></iframe>
                     </div>   
                     <div class="text-white text-center p-5">
@@ -65,7 +66,7 @@
         grid.innerHTML += html_iframe;
     };
 
-    const div = grid.querySelector('div');
+    const div = grid.querySelector('div'); 
     
     window.addEventListener(
         'resize', () => {
