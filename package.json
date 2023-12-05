@@ -1,5 +1,15 @@
 {
-  "devDependencies": {
+  "name": "latihan-tailwind",
+  "version": "1.0.0",
+  "dependencies": {
     "tailwindcss": "^3.3.5"
-  }
+
+  },
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css"
+  },
+  "author": "Najah",
+  "license": "ISC",
+  "description": "Pog"
 }
